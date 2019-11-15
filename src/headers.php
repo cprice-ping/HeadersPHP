@@ -13,10 +13,12 @@
 		<meta name="description" content="Page to display Headers -- useful when protected by PingAccess" />
                 <meta name="author" content="Ping Identity" />
 
-		<link rel="stylesheet" href="css/headers.css">
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="css/headers.css">
+
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -43,7 +45,7 @@
 		</header>
 		
 		<div class="container">
-			<table class="table">
+			<table class="table table-striped">
 				<tbody>
 
 					<?php
